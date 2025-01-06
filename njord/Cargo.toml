@@ -21,7 +21,7 @@ log = "0.4.22"
 rusqlite = { version = "0.32.1", features = ["bundled"], optional = true }
 serde = { version = "1.0.217", features = ["derive"] }
 mysql = { version = "25.0.1", optional = true }
-oracle = { version = "0.6.2", features = ["chrono"], optional = true }
+oracle = { version = "0.6.3", features = ["chrono"], optional = true }
 tiberius = { version = "0.12.3", default-features = false, features = ["chrono", "time", "tds73", "rust_decimal", "bigdecimal", "rustls"], optional = true }
 tokio = { version = "1.42.0", features = ["full"], optional = true }
 tokio-util = { version = "0.7.13", features = ["compat"], optional = true }
